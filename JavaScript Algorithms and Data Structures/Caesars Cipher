@@ -1,0 +1,22 @@
+function rot13(str) {
+  //alphabet array and double it
+  const theLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+  const key = theLetters.concat(theLetters);
+  let final = "";
+  //for each letter find the 13th forward
+  for (let i = 0; i < str.length; i++) {
+    //if non alpha numeric just pass it through
+    if (! (/[^A-Za-z0-9]/.test(str[i])) ){
+      let letterNumber = key.indexOf(str[i]);
+      letterNumber = letterNumber + 13;
+      let letter = key.at(letterNumber);
+      final = final + letter;
+    }else{
+      final = final + str[i];
+    }
+  }
+  console.log(final);
+  return final;
+}
+
+rot13("SERR PBQR PNZC");
