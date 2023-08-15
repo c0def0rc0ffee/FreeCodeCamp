@@ -1,0 +1,16 @@
+function convertToRoman(num) {
+  var theNumerials = {M:1000,CM:900,D:500,CD:400,C:100,XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1};
+  var centurian = '';
+  // For each theNumerials array item
+  for (var i in theNumerials) {
+    // while the passed in value is greater than or equal to the array item
+    while (num >= theNumerials[i]) { 
+      //add the numerials to the return string
+      centurian += i;
+      // subtract the numerical value of string added from the passed in numerical value and go round again
+      num -= theNumerials[i];
+    }
+  }
+  //return completed string
+	return centurian;
+}
