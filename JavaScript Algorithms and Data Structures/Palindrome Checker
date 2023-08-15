@@ -1,0 +1,20 @@
+function palindrome(str) {
+  //remove non-alphanumeric characters and underscores
+  str = str.replaceAll(/[^A-Za-z0-9]/g, '');
+
+  //convert all to lowercase, split, reverse new str and join
+  var lowercaseSplit = str.toLowerCase().split("");
+  var reverseStr = lowercaseSplit.reverse();
+  var reverseStrJoin = reverseStr.join();
+  var strJoin = str.toLowerCase().split("").join();
+  console.log(reverseStrJoin);
+  console.log(strJoin);
+
+  for (let i = 0; i < strJoin.length; i++) {
+    if (strJoin[i] !== reverseStrJoin[i]){
+      return false;
+    }
+  }
+  return true;
+}
+palindrome("almostomla");
