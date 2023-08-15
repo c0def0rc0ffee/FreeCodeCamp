@@ -1,0 +1,256 @@
+** start of undefined **
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<div class="header">
+<main id="main" class="container">
+      <div class="row">
+            <div class="text-center">
+                  <h1 id="title">Is a cat right for you?</h1>
+                  <p id="description" class="description"><b>Note:</b> The cat owns you, not the other way around.</p>
+            </div>
+            <form id="survey-form">
+                  <fieldset>
+                        <div class="entry-box">
+                              <label id="name-label" for="name">Name:</label>
+                              <input type="text" required id="name" placeholder="Your Name">
+                        </div>
+                        <div class="entry-box">
+                              <label id="email-label" for="email">Email:</label>
+                              <input type="email" required id="email" placeholder="Your Email Address">
+                        </div>
+                        <div class="entry-box">
+                              <label id="number-label" for="number">Age:</label>
+                              <input type="number" id="number" min="1" max="9999" placeholder="Your Age">
+                        </div>
+                        </br>
+                        <div class="entry-box">
+                              <input type="radio" name="gender" value="male" checked> Male
+                              <input type="radio" name="gender" value="female"> Female
+                        </div>
+                        </br>
+                        <div class="entry-box dropdown">
+                              <label for="personality">Your Personality:</label>
+                              <select id="dropdown">
+                                    <option value="introvert">Introvert</option>
+                                    <option value="extrovert">Extrovert</option>
+                              <select>
+                        </div>  
+                  </fieldset>
+                  <br>
+                  <fieldset class="entry-box"id="allthatapply">
+                        <label for="checkbox">Check All That Apply:</label>            
+                        <input type="checkbox" name="earlywakeup" value="earlywakeup"> I enjoy being woken up early<br>
+                        <input type="checkbox" name="fragilebreak" value="fragilebreak"> I enjoy my fragile possessions being broken<br>
+                        <input type="checkbox" name="scooppoo" value="scooppoo"> Scooping poo brings joy to my life
+                  </fieldset>
+                  <br>
+                  <fieldset>
+                        <label for="writebox">Please describe your perfect cat</label>
+                        <textarea id="cat_description" name="cat_description" rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+                  </fieldset>
+                  </br>
+                  <button type="submit" id="submit">Submit</button>
+            </form>
+      </div>
+ </main>
+ </div>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 2% 0;
+  background-color:  rgb(59,68,75);
+  line-height: 1.3;
+  margin: auto; 
+}
+
+h1{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #85FFC7;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #FFF;
+}
+
+form {
+  background:  rgb(85,85,85);
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  margin: auto; 
+  max-width: 65%;
+}
+
+input {
+			margin-top: 1.5%;
+			padding: 0 0 5px 0;
+			background: transparent;
+			border: none;
+			outline: none;
+			border-bottom: 2px solid #fff;
+			font-size: 1.1em;
+			font-weight: 300;
+      width:100%;  
+}
+
+select {
+background:rgb(192,192,192);
+}
+
+	input::-webkit-input-placeholder {
+			color: transparent !important;
+	}
+	input::-moz-placeholder {
+			color: transparent !important;
+	}
+	input:-ms-input-placeholder {
+			color: transparent !important;
+	}
+	input:-moz-placeholder {
+			color: transparent !important;
+	}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+[type=number] {
+			width: 45px;
+}
+
+[type=checkbox] {
+			width: 25px;	
+      color: #fff;
+}
+
+.entry-box {
+	color: #fff;
+	font-size: 1.2em;
+  margin-bottom:4px;
+}
+
+.dropdown {
+color:black;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.description{
+ text-align: center;
+}
+
+#survey-form 
+		label,
+	.labels {
+			display: block;
+			margin-bottom: 2%;
+			font-size: 1.2em;
+			font-weight: 300;
+			color: #FFF;
+			letter-spacing: 0.5px;
+	}
+
+#allthatapply {
+  color: #fff;
+}
+
+#cat_description{
+  width:100%;
+	background:rgb(192,192,192);
+	color: black;
+}
+
+#submit{
+  width:100%;
+}
+
+[type="checkbox"],
+	[type="radio"] {
+			display: inline-block;
+			width: auto;
+			margin: 0px 10px 10px 0;
+	}
+
+	[type="checkbox"],
+	[type="radio"]{
+			display: inline-block;
+			margin: 0 10px 0 10px !important;
+			position: relative;
+			top: 5px;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			height: 25px;
+			width: 25px;
+			cursor: pointer;
+  }
+
+footer {
+  background:rgb(85, 107, 47);
+  font-family:'League Spartan';
+  font-weight: 500;
+  height: 42px;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(0,0,0);
+  font-size: 1.2rem;
+  line-height: 42px;
+  position: relative;
+  top: 2px;
+}
+
+footer a:focus, footer a:hover, footer a:visited {
+  color: rgb(169, 169, 169);
+}
+
+footer a svg {
+  margin-right: 0.3125rem;
+  vertical-align: text-bottom !important;
+}
+
+a:focus, a:hover, a:visited {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 8% 0%;
+  }
+  form{
+ max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  form{
+ max-width: 85%;
+  }
+}
+
+** end of undefined **
+
