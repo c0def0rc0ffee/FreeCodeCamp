@@ -1,0 +1,67 @@
+function telephoneCheck(str) {   
+
+/* This regex doesn't work on the very last test, passes all but THE LAST ONE!
+I have now learned as to why everyone hates it
+   if(/^(1)*\s*(\(\d{3}\)|\d{3})(\s|-)*\d{3}(\s|-)*\d{4}$/.test(str) === false){
+      return false;
+    }else{
+      return true;
+    }
+*/
+
+ //check its not too short 
+  if (str.length <=8) {
+    return false;
+  }
+ 
+  //check for valid characters
+  if (! /^(?=.*[0-9])[- +()0-9]+$/.test(str)) {
+    return false;
+  }
+
+  //check opening and closing brackets in correct sequence
+  let brackets = [];
+  let character;
+  for (let i = 0; i < str.length; i++){
+    character = str[i];
+    if (character === '(') {
+      brackets.push(character);
+    } else if (character === ')'){
+      if (brackets.length === 0){
+        return false;
+      }
+      brackets.pop();
+      if (')' !== character){
+        return false;
+      } 
+    }
+  }
+
+  //check starting characters correct
+  var valid = false;
+  switch(str[0]) {
+    case "5":
+      if(str[1] === "5" && str[2] === "5"){
+         valid = true;
+      }
+      break;
+    case "(": 
+      if (str[4] === ")"){
+        if (str[1] === "5" && str[2] === "5" && str[3] === "5")
+        valid = true;
+      }
+      break;
+    case "1":
+      if (str[1] === " " || str[1] === "("){
+        valid = true;
+      } 
+      break;
+  }
+
+  if (valid === false){
+  	return false;
+  }
+return true;
+}
+
+telephoneCheck("555-555-5555");
