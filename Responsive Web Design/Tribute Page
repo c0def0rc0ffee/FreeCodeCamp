@@ -1,0 +1,285 @@
+** start of undefined **
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<main id="main">
+  <div class="container">
+    <div class="row">
+      <div id="img-div" class="col-md-6 col-lg-4 d-flex align-items-center">
+        <div class="mx-auto" style="max-width: 550px;">
+          <h1>USS Sulaco</h1>
+          <img id="image" class="img-fluid my-2" src="https://resources.rob-ford.org/images/FreeCodeCamp/USMC_Badge.png" alt="USCM Badge">  
+          <div id="img-caption" class="text-center">2179<br>2nd Battalion Bravo Team<br>A tribute to the fallen<br>
+            <a id="tribute-link" class="card-link" href="https://en.wikipedia.org/wiki/Aliens_(film)" target="_blank" rel="noopener noreferrer">read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\1_Ricco_Frost.jpg" alt="Ricco Frost">
+          </div>
+          <div class="card-body">
+            <h4 id="title" class="card-title">Ricco Frost</h4>
+            <h4 class="sub-card-heading">Final Moment - 1hr14min</h4>
+            <p id="tribute-info">Should have been a main character to the end, perhaps replacing Gorman. But alas, he was the first to go. Died by friendly fire from a flamethrower and then falling from height.</p>
+          <p><i>AAHHHH!!</i> - Screamed while falling down a stairwell on fire</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div id="image" class="card-img-top">
+            <img class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\2_Cynthia_Dietrich.jpg" alt="Cynthia Dietrich">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Cynthia Dietrich</h4>
+            <h4 class="sub-card-heading">Final Moment - 1hr14min</h4>
+            <p class="card-text">Trigger discipline skills not good. Was attacked by a Xenomorph and taken back to the nest for implantation.</p>
+            <p><i>Maybe they don't show up on infrared at all.</i> - Said in a visibly hot enviroment right below the primary heat exchanger.</p>
+          </div>
+       </div>
+     </div>
+      <div class="col-md-6 col-lg-4">
+       <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\3_Tim_Crowe.jpg" alt="Tim Crowe">
+         </div>
+          <div class="card-body">
+            <h4 class="card-title">Tim Crowe</h4>
+            <h4 class="sub-card-heading">Final Moment - 1hr14min</h4>
+            <p class="card-text">Dies technically from friendly fire because the munitions bag Frost was carrying explodes after it was torched by Dietrich's flamethrower.</p>
+            <p><i>You always say that, Frost. You always say, 'I got a bad feeling about this drop.</i> - Said on the way to a bad drop.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\4_Trevor_Wierzbowsk.jpg" alt="Trevor Wierzbowsk">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Trevor Wierzbowski</h4>
+            <h4 class="sub-card-heading">Final Moment - 1hr14min</h4>
+            <p class="card-text">Background screams heard after jumping to rescue Frost and Deitrich not realising the munitions bag was on fire. Pulled back by Hicks he seems to survive until Hicks leaves to attend to Crowe and a Xenomorph attacks.</p>
+            <p><i>AAAAARRRRRGGGGGHHHHHHHHHH!</i> - Heard screaming shortly after Hicks leaves him.</p>        
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\5_Alexander_Apone.jpg" alt="Alexander Apone">
+         </div>
+          <div class="card-body">
+            <h4 class="card-title">Al Apone</h4>
+           <h4 class="sub-card-heading">Final Moment - 1hr15min</h4>
+           <p class="card-text">Another great character that had an early death but it adds to the sence of loss and disorganisation in the survivors that follow throughout the rest of the film. Attacked from above by a Xenomorph, later implanted.</p>
+            <p><i>It's a rescue mission. You'll love it. There's some juicy colonists' daughters we have to rescue from their virginity.</i></p>    
+         </div>
+       </div>
+     </div>
+     <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+         <div class="card-img-top">
+           <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\6_Mark Drake.jpg" alt="Mark Drake">
+         </div>
+          <div class="card-body">
+           <h4 class="card-title">Mark Drake</h4>
+           <h4 class="sub-card-heading">Final Moment - 1hr18min</h4>
+           <p class="card-text">Hardcore. <i>"Drake! WE ARE LEAVING!"</i> is yelled at him as he is busy killing everything attacking them at the rear. When his smart gun runs out of ammo he simply chucks it away and pulls out a flamethrower to continue his assault, Chuck Norris would be proud.</p>
+<p><i>Hey, Hicks. Man, you look just like I feel.</i> - The first thing he says when he looks at Hicks waking up from Cryo.</p>
+         </div>
+       </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div class="card-img-top">
+           <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\7_Daniel_Spunkmeyer.jpg" alt="Daniel Spunkmeyer">
+         </div>
+         <div class="card-body">
+           <h4 class="card-title">Daniel Spunkmeyer</h4>
+           <h4 class="sub-card-heading">Final Moment - 1hr23min</h4>
+            <p class="card-text">Not too bright. Dies offscreen from assumed Xenomorph attack</p>
+            <p><i>Hey! Theres something up here, ramp closing</i> - Stated while returning from guard duty below the only entrance ramp to the drop ship having been listening on the radio the whole time and being totally aware Xenomorphs are everywhere.</p>
+          </div>
+        </div>
+     </div>
+     <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\8_Colette_Ferro.jpg" alt="Colette Ferro">
+         </div>
+         <div class="card-body">
+            <h4 class="card-title">Colette Ferro</h4>
+            <h4 class="sub-card-heading">Final Moment - 1hr23min</h4>
+            <p class="card-text">Dies from Xenomorph attack while strapped into the pilot seat of her Cheyenne dropship. Having lined the dropship toward the APC with pin point accuracy before her death the dropship continues on its course and wipes out the APC and most of the supplies.</p>
+<p><i>Well where the f*ck have you...</i> - Spoken as the cockpit door opens to reveal a Xenomorph.</p>  
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+       <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\9_William_Hudson.jpg" alt="William Hudson">
+         </div>
+          <div class="card-body">
+            <h4 class="card-title">William Hudson</h4>
+            <h4 class="sub-card-heading">Final Moment - 1hr57min</h4>
+            <p class="card-text">Dies in a blaze of glory killing every Xenomorph that moves.</p>
+            <p><i>Mother fu*ker! Come on, come get it baby, come on, come on you bastard, come on you too, oh you want some of this f*ck you!</i> - Spoken as he goes down in a hail of bullets hero style protecting the groups escape after a large incursion into the main quarters.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+       <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\10_Jenette_Vasquez.jpg" alt="Jenette Vasquez">
+         </div>
+          <div class="card-body">
+            <h4 class="card-title">Jenette Vasquez</h4>
+            <h4 class="sub-card-heading">Final Moment - 2hr01min</h4>
+            <p class="card-text">Professional badass with attitude & skills. Dies in a self sacrafice with Gorman, protecting the final survivors.</p>
+            <p><i>I only need to know one thing: where they are.</i> - Said to Riply as she waffles on about something that happened 57 years ago before the marines were even born.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0">
+          <div class="card-img-top">
+            <img id="image" class="img-fluid" src="https://resources.rob-ford.org/images/FreeCodeCamp/Aliens_USCM\11_Scott_Gorman.jpg" alt="Scott Gorman">
+          </div>
+         <div class="card-body">
+            <h4 class="card-title">Scott Gorman</h4>
+            <h4 class="sub-card-heading">Final Moment - 2hr01min</h4>
+            <p class="card-text">Displayed his true character by going back for a wounded Vasquez after she is heard screaming. He produces the grenade and flips the top as they both clutch it before it explodes. He dies with her.</p>
+            <p><i> I told them to fall back... I told them to fall back!</i> - Said as he loses control having told them not to discharge rounds while an overwhelming Xenomorph force engages.</p>
+         </div>
+       </div>
+      </div>
+   </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <a href="https://www.rob-ford.org" target="_blank" rel="noopener noreferrer"> Rob Ford</a>
+  </div>
+</footer>
+
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto:wght@100;400&display=swap');
+
+html, body {
+  background-color: rgb(75,83,32);
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  text-align:center;
+  font-family:'League Spartan';
+}
+main {
+  flex: 1 0 auto;
+  padding: 15px 0;
+}
+ p{
+    margin-top:-10px;
+ }
+
+footer {
+  background:rgb(85, 107, 47);
+  font-family:'League Spartan';
+  font-weight: 500;
+  height: 42px;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(0,0,0);
+  font-size: 1.2rem;
+  line-height: 42px;
+  position: relative;
+  top: 2px;
+}
+
+footer a:focus, footer a:hover, footer a:visited {
+  color: rgb(169, 169, 169);
+}
+
+footer a svg {
+  margin-right: 0.3125rem;
+  vertical-align: text-bottom !important;
+}
+
+a:focus, a:hover, a:visited {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+#img-caption {
+  margin-top:-15px;
+  font-family:'League Spartan';
+  font-size:1.4rem;
+}
+
+#img-div{
+  top: 0px;
+}
+
+.card-title {
+ font-weight:bold;
+}
+.sub-card-heading{
+    font-size:1.1rem;
+    margin-top:-10px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.card {
+  margin: 15px auto;
+  max-width: 420px;
+  min-height: 520px;
+}
+
+.card-body {
+  font-family:'League Spartan';
+  font-size: 1.00rem;
+  background:rgb(85, 107, 47);
+}
+
+.card-link {
+  font-family:'League Spartan';
+  font-weight: 500;
+   font-size: 0.8rem;
+  text-transform: uppercase;
+   color: rgb(85, 107, 47)
+}
+
+.card-link {
+ margin: -35px 0;
+}
+
+.card-link:hover {
+  color: rgb(169, 169, 169);
+}
+
+
+
+** end of undefined **
+
