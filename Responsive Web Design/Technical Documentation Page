@@ -1,0 +1,221 @@
+** start of undefined **
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="styles.css">
+<nav id="navbar">
+  <header>Cocktail Making <i class="fa fa-glass" aria-hidden="true"></i> </header>
+  <ul>
+    <li><a class="nav-link" href="#What_cocktails_can_do_for_you">What cocktails can do for you</a></li>
+    <li><a class="nav-link" href="#Strawberry_Field">Strawberry Field</a></li>
+    <li><a class="nav-link" href="#Rockstar_Martini">Rockstar Martini</a></li>
+    <li><a class="nav-link" href="#Blue_Lagoon">Blue Lagoon</a></li>
+    <li><a class="nav-link" href="#Pornstar_Martini">Pornstar Martini</a></li>
+    <li><a class="nav-link" href="#Bootylicious">Bootylicious</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="What_cocktails_can_do_for_you">
+    <header>What cocktails can do for you</header> 
+    <p>Cocktail making offers many benefits to a heathy lifestyle.</p>
+    <li>Making friends</li>
+    <li>Good excuse to get drunk</li> 
+    <li>Easily poison your enemies</li> 
+    <li>Wife becomes more agreeable to certain activities</li> 
+    <li>Problems become insignificant once passed out on the couch</li>
+    <li>A good Manhatten can save you from Gangsters</li>
+  </section>
+<hr>
+  <section class="main-section" id="Strawberry_Field">
+    <header>Strawberry Field</header>
+    <p>A delicious but very sweet cocktail, tastes like those strawberry sweets.</p>
+    <h3>Ingredients</h3>
+    <code><li>Strawberry Puree 50ml</li><li>Peach Puree 50ml</li><li>Vanilla Syrup 50ml</li><li>Pink Gin 35ml</li><li>Passion Fruit 35ml</li><li>Soda Water 100ml</li></code>
+    <h3>Directions</h3><p>Pour it all into a shaker and shake. Careful as sodawater is fizzy. Pour into glass with crushed ice.</p>
+</section>
+<hr>
+  <section class="main-section" id="Rockstar_Martini">
+    <header>Rockstar Martini</header>
+    <p>A local version of a classic cocktail</p>
+    <h3>Ingredients</h3>
+    <code><li>Mount Gay Rum 50ml</li><li>Passoa 15ml</li><li>Lime Juice 15ml</li><li>Pineapple Juice 30ml</li><li>Vanilla clear stuff monin 15ml</li></code>
+    <h3>Directions</h3> <p>Pour it all into a shaker and shake, pour into glass.</p>
+  </section>
+<hr>
+  <section class="main-section" id="Blue_Lagoon">
+    <header>Blue Lagoon</header>
+    <p>A local version of a classic cocktail</p>
+    <h3>Ingredients</h3>
+    <code><li>Vodka 50ml</li><li>Blue Stuff 50ml</li><li>Lemonade 200ml</li></code>
+    <h3>Directions</h3> <p>Pour it all into a shaker and shake. Pour into glass with crushed ice.</p>
+  </section>
+<hr>
+  <section class="main-section" id="Pornstar_Martini">
+    <header>Pornstar Martini</header>
+    <p>A classic cocktail, served with a single shot of Prosecco</p>
+    <h3>Ingredients</h3>
+    <code><li>Vanilla Vodka 50ml</li><li>Vanilla Syrup 15ml</li><li>Passion Fruit Juice 100ml</li><li>A tea spoon of lime juice</li><li>15ml passion fruit puree</li></code>
+    <h3>Directions</h3> <p>Pour it all into a shaker and shake, pour into glass.</p>
+  </section>
+<hr>
+  <section class="main-section" id="Bootylicious">
+    <header>Bootylicious</header>
+    <p>A local bar's cocktail</p>
+    <h3>Ingredients</h3>
+    <code><li>Vodka 1.5 shots</li><li>.75 Shot Strawberry Liquere</li><li>1.5 Shots Passion Juice</li><li>1.5 Shots Apple Juice</li></code>
+    <h3>Directions</h3> <p>Pour it all into a shaker with ice and shake hard, pour into glass.</p>
+  </section>
+</main>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #252729;
+  font-family: 'Tahoma', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h3{
+  color:white;
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+section article {
+  color: white;
+ 
+  font-size: 0.96em;
+}
+
+section li{
+  color:white;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #7EB7FF;
+  padding: 10px;
+  border-radius: 5px;
+  color:black;
+  font-family: 'Tahoma', Arial, sans-serif;
+}
+
+code li{
+  color:black;
+}
+
+p{
+   color:white;
+}
+
+#main-doc header {
+  text-align: left;
+}
+
+#navbar ul {
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color:white;
+}
+
+#navbar li {
+  color: white;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px; 
+  margin-bottom: 110px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: grey;
+  padding-top:15px;
+}
+
+.main-section{
+  margin-top:25px;
+  padding-bottom:10px;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: #252729;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
+
+** end of undefined **
+
