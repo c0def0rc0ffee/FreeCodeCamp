@@ -1,0 +1,50 @@
+function checkCashRegister(price, cash, cid) {
+  let finalResults = [];
+  let change = {status:'',change:[]};
+  var cidTotal = 0; // total value of cid passed in
+  var resultTotal = 0;
+  var returnCoins = []; // array for returned coins
+  var difference = cash - price;
+  var difference_static = cash - price;
+  cid.reverse();
+  // array to store American names and values
+  let arrYankeeCoins = [["ONE HUNDRED",100], ["TWENTY",20],["TEN",10],["FIVE",5],["ONE", 1], ["QUARTER",0.25], ["DIME",0.1],  ["NICKEL", 0.05], ["PENNY", 0.01]]
+    returnCoins = [...arrYankeeCoins]   // new array of the same to store the coins to return at the end
+    for(let i = 0; i < arrYankeeCoins.length; i++){ 
+      let coinAvailable = cid[i][1]/arrYankeeCoins[i][1];  //check if there is a coin that is available
+      let change = 0; //change to give back
+      if (coinAvailable > 1){ //if a coin is available
+        while(difference.toFixed(2)>=arrYankeeCoins[i][1] && coinAvailable >= 1){ //while there is a difference and a coin available
+          difference-=arrYankeeCoins[i][1];
+          change+=arrYankeeCoins[i][1];
+          coinAvailable--;
+        }
+      }
+      if (!change > 0){
+        returnCoins[i][1] = change;
+      }else{
+        if (change - Math.floor(change) === 0){
+          returnCoins[i][1] = change;
+        }else{
+          returnCoins[i][1] = parseFloat(change.toFixed(2));
+        }
+      }
+    }
+  cid.forEach((j) => {cidTotal += j[1];});//loop through each cid item and add the values to cidTotal
+  returnCoins.forEach((k) => {resultTotal += k[1];});//loop through each result item and add the values to resultTotal
+  cid.reverse();//swap passed in array back as it was
+    if (difference_static === cidTotal){
+        change.change = cid
+        change.status = 'CLOSED';
+    }else if(difference_static > cidTotal || difference_static > resultTotal){
+        change.change = [];
+        change.status = 'INSUFFICIENT_FUNDS';
+    }else {
+      returnCoins.forEach((x) => {if (x[1] !== 0){finalResults.push(x);}});
+      change.change = finalResults;
+      change.status = 'OPEN';
+      console.log(change.change);
+    }
+  return change;
+}
+checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
