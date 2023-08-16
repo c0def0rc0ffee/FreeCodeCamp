@@ -1,0 +1,329 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Rob Ford</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Robs Home on the Internet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="navbar-header">
+          <a id="profile-link" class="navbar-brand" href="#" target="_blank">Rob's Own Website</a>
+          <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" style="float:left">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#links">Links</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="welcome-section" class="container-fluid section about-section">
+    </br>
+    <h1>Picture of me</h1><hr class="section-divider"></h2>
+    <div class="container">
+      <div class="image">
+        <figure>
+          <img src="https://www.rob-ford.org/images/me/me-1.jpg" class="image img-thumbnail img-responsive" alt="pic of me">  
+        </figure>
+      </div> 
+    </div>
+    <div id="projects" class="container-fluid section projects-section">
+      <h2>Projects</h2>
+      <hr class="section-divider">
+      <div class="container">
+        <br/>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <div>
+                <a href="#" target="_blank" class="linktext"><img src="https://resources.rob-ford.org/images/FreeCodeCamp/project_1.jpg" class="image img-thumbnail img-responsive" style="width:100%" alt="project page">        
+                  <div class="caption" style="text-align:right;">
+                    <a href="#" target="_blank" class="btn link-icon" title="More">
+                    <span style="font-size: 15px;" class="fa fa-info-circle fa-2x"  aria-hidden="true"></span> More</a> 
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h3 class="project-tile">Project 1</h3>
+              <p>Undisclosed purple science liquid. For sciencing only, not for drinking.</p>
+            </div>
+          </div>
+          <hr class="project-divider">
+          <h5>&nbsp;</h5>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="makeithover">
+                <div>
+                  <a href="#" target="_blank" class="linktext"><img src="https://resources.rob-ford.org/images/FreeCodeCamp/project_2.jpg" class="image img-thumbnail img-responsive" style="width:100%" alt="project page">        
+                    <div class="caption" style="text-align:right;">
+                      <a href="#" target="_blank" class="btn link-icon" title="More">
+                      <span style="font-size: 15px;" class="fa fa-info-circle fa-2x"  aria-hidden="true"></span> More</a> 
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h3>Project 2</h3>
+              <p>A robot to obey my every command, like making delicious cake.</p>
+            </div>
+          </div>
+          <hr class="project-divider">
+          <h5>&nbsp;</h5>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="makeithover">
+                <div>
+                  <a href="#" target="_blank" class="linktext"><img src="https://resources.rob-ford.org/images/FreeCodeCamp/project_3.jpg" class="image img-thumbnail img-responsive" style="width:100%" alt="project page"> 
+                    <div class="caption" style="text-align:right;">
+                      <a href="#" target="_blank" class="btn link-icon" title="More">
+                      <span style="font-size: 15px;" class="fa fa-info-circle fa-2x"  aria-hidden="true"></span> More</a> 
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h3>Project 3</h3>
+              <p>The brown note ray gun.</p>
+            </div>
+          </div> 
+          <hr class="project-divider">
+          <h5>&nbsp;</h5>
+          <div class="row">
+            <div class="col-sm-6">
+              <div>
+                <a href="#" target="_blank" class="linktext"><img src="https://resources.rob-ford.org/images/FreeCodeCamp/project_4.jpg" class="image img-thumbnail img-responsive" style="width:100%" alt="Project page">         
+                  <div class="caption" style="text-align:right;">
+                    <a href="#" target="_blank" class="btn link-icon" title="More">
+                      <span style="font-size: 15px;" class="fa fa-info-circle fa-2x"  aria-hidden="true"></span> More</a> 
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h3>Project 4</h3>
+              <p>Firefly class cargo ship to boldly go where no man has gone before. With a Kaylee of course, not Scotty.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="links" class="container-fluid section">
+    <h2>Links</h2>
+      <hr class="section-divider">
+      <div class="row text-center">
+        <a href="https://www.freecodecamp.org/C0deF0rC0ffee" target="_blank" class="btn link-icon" title="FreeCodeCamp">
+          <span class="fa fa-free-code-camp fa-2x" aria-hidden="true"> <span style="font-family: 'Ubuntu', monospace, sans-serif; font-size: 20px;"> FreeCodeCamp</span></span></a>
+        </a>
+      </div>
+      <br><br><br>
+      <h6 class="text-center"><i class="fa fa-globe" aria-hidden="true"></i> Based on Earth</h6>
+  </div>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  scroll-behavior: smooth;
+  background-color: #252729;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  width: 100%;
+}
+
+h1,h2 {
+  font-size: 4rem;
+  font-family: 'Poiret One', monospace, sans-serif;
+}
+
+h1,h2,
+h3 {
+  color: white;
+  pointer-events: none;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;  
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: 'Poiret One', monospace, sans-serif;
+}
+
+h4,
+h5 {
+  font-family: 'Poiret One', monospace, sans-serif;
+  text-align: right;
+  color: white;
+}
+
+h6 {
+  color: white;
+  font-family: 'Poiret One', monospace, sans-serif;
+  font-size: 1.7rem; 
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;             
+}
+
+p {
+  color: white;
+  font-size: 1.75rem;
+  padding-top: 3%;
+  font-family: 'Ubuntu', monospace, sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.section-divider {
+  width: 25dvh;
+  border-top: 1px solid #d67214;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.project-divider {
+  width: 10dvh;
+  border-top: 1px solid #d67214;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+   color: white !important;
+  font-family: Lobster, Georgia;
+  font-size: 4rem;
+  transition: 1s;
+  zoom: 1.005;
+  text-shadow: 4px 4px 4px #000000;
+  transform: rotate3d(1, 2.0, 3.0, -2deg) skewX(-2deg);
+  -webkit-transform: rotate3d(1, 2.0, 3.0, -2deg) skewX(-2deg);
+  -o-transform: rotate3d(1, 2.0, 3.0, -2deg) skewX(-2deg);
+}
+
+.nav.navbar-nav li a {
+  color: white;
+  font-family: 'Poiret One', monospace, sans-serif;
+  font-size: 28px;
+  transition: 0.5s linear;
+}
+
+.navbar-toggle{
+  animation-name: toggle-nav;
+  animation-duration: 6s;
+}
+
+.navbar {
+  border: none !important;
+  animation-name: menu-Background;
+  animation-duration: 6s;
+}
+
+.nav.navbar-nav li a:after {
+background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  background-color: #d67214;
+}
+
+.nav.navbar-nav li a:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+
+.section {
+  padding-top: 2.8rem;
+  padding-bottom: 2rem;
+}
+
+.img-thumbnail .img-responsive {
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
+
+.image {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: block;
+  height: auto;
+  opacity: 1;
+  transition: 0.5s ease;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.link-icon:hover {
+  color: white;
+}
+
+.link-icon {
+  color: #c1b193;
+}
+
+@media only screen and (max-width: 786px) {
+  .home-short {
+    padding-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home-short {
+    margin-top: 20%;
+  }
+}
+
+** end of undefined **
+
