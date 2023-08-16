@@ -1,0 +1,217 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css" >
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'> 
+<html>
+<header id=header>
+  <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="navbar-header">
+          <a id="navbar-brand" class="navbar-brand" href="#" target="_blank">Plasma Pistol</a>
+          <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" style="float:left">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right ">
+            <li class="nav-item"><a class="nav-link" href="#Overview">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Description">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Specification">Spec</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="Overview" class="section">
+    </br></br>
+    <h2>Type 25 Plasma Pistol <hr class="section-divider"></h2>
+    <div class="container">
+      <div class="image">
+      <figure>
+        <img id="header-img" src="https://resources.rob-ford.org/images/FreeCodeCamp/Type25PlasmaPistol.png" class="image img-responsive" alt="Plasma Pistol">
+      </figure>
+      </div>
+    </div>
+  </div>
+</header>
+<div id="Description" class="section">
+  <h2>About</h2>
+  <hr class="section-divider">
+    <div class="container">
+      <div class="text-center">
+        <p><b>If you think the weapon is useless, you're not on Legendary.</b></p>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <p> The plasma pistol is a Covenant directed-energy weapon that was reverse-engineered from a Forerunner device. The weapon is powered by a battery cell. This battery can be recharged using a variety of power sources, including UNSC generators, provided an appropriate adaptor is at hand. Plasma pistols have a core power output of 100-150 KV at 2~3 dA, but when overcharged, the power output can reach 1.5 MV @ 2~3 dA. The Type-25 DEP is a semi-automatic weapon using a single collimator design that gives the weapon its smooth and aerodynamic, claw like appearance.</p> 
+        </div>
+        <div class="col-sm-6">
+          <p>Before the plasma pistol can be fired the user must place their thumb on the pad, the pistol then activates and can be fired. On the left side is another small red button; this opens the top heating vent and allows access to the weapon's internal components. With the dissolution of a centralized manufacturing control—as a result of the Great Schism and fall of the Covenant—new production of plasma pistols have appeared in a bewildering variety of casing styles and adornments.
+The plasma pistol has two modes of fire, semi-automatic direct and semi-guided area of effect (AOE), also known as "overcharge".</p>
+      </div>
+      <div class="text-center">
+        <p>In action, however this video greatly oversells it's power in game.</p>
+      </div>
+      <div class="text-center">
+        <iframe id=video width="430" height="245" src="https://www.youtube.com/embed/wY9GR4p2mAo"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="Specification" class="section">
+  <h2>Specification</h2>
+    <hr class="section-divider">
+      <div class="text-center">
+        <div style="display: inline-block;">
+          <p class="spec-list">
+            Length: 37 centimetres (15 in)<br/>
+            Width: 6.6 centimetres (2.6 in)<br/>
+            Height: 29.9 centimetres (11.8 in)<br/>
+            Weight: 3.5 kilograms (7.7 lb)<br/>
+            Ammunition type: Superheated plasma<br/>
+            Muzzle velocity: 108 m/s (354 f/s)<br/>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="Contact" class="section">
+      <h2>Contact</h2>
+      <hr class="section-divider">
+      <div class="text-center">
+        <div style="display: inline-block;">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="help@covenantcommand">
+            <input type="submit" id="submit"> 
+          </form>
+        </div>
+      </div>
+  </div>
+</html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html,body {
+  background-color: rgb(2,0,36);
+  scroll-behavior: smooth;
+}
+
+h2,
+h3 {
+  font-family: 'Turret Road', cursive;
+  color: white;
+  pointer-events: none;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;  
+}
+p{
+ font-family: 'Roboto', sans-serif;
+ color: white;
+ font-size: 1.7rem;
+}
+.navbar {
+  border: none !important;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(75,0,130) 35%, rgba(2,0,36,1) 100%);
+}
+
+.navbar-brand {
+  font-family: 'Turret Road', cursive;
+  font-size: 4rem;
+  color: white !important;
+  transition: 1s;
+  zoom: 1.005;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+
+.nav.navbar-nav li a {
+  color: white;
+   font-family: 'Turret Road', cursive;
+  font-size: 28px;
+  transition: 0.5s linear;
+}
+
+.nav.navbar-nav li a:after {
+background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+  background-color: #1a1110;
+}
+
+.nav.navbar-nav li a:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+
+.section {
+  padding-top: 2.8rem;
+  padding-bottom: 2rem;
+}
+
+.useFlexbox {
+   display: flex;
+}
+
+.section-divider {
+  width: 45dvh;
+  border-top: 1px solid rgb(75,0,130);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.img-thumbnail .img-responsive {
+  display: block;
+  max-height: 100%;
+  width: auto;
+}
+
+.img-responsive {
+  background-color: rgb(75,0,130)!important;
+  border: 1px solid rgb(75,0,130)!important;
+}
+
+.image {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: block;
+  height: auto;
+  opacity: 1;
+  transition: 0.5s ease;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+@media only screen and (max-width: 786px) {
+  .home-short {
+    padding-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home-short {
+    margin-top: 20%;
+  }
+}
+
+** end of undefined **
+
